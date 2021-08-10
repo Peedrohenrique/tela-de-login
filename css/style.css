@@ -35,7 +35,7 @@ div {
 }
 
 label {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 20px;
 }
 
@@ -83,6 +83,10 @@ label {
     display: block;
     margin-top: -12px;
     text-decoration: none;
+}
+
+#mudar {
+    color: red;
 }
 
 @keyframes fade {

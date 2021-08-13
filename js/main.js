@@ -1,7 +1,7 @@
 /*variável JSON.*/
 var usuarios = [
     { "login": "pedro", "senha": "34970994" },
-    { "login": "rodrigo", "senha": "rodrigo" },
+    { "login": "rodrigo", "senha": "784512" },
     { "login": "henrique", "senha": "henrique" },
     { "login": "sarah", "senha": "teamopedro" },
 ];

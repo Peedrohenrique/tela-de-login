@@ -16,7 +16,7 @@ function Login() {
         if (us.login === usuario && us.senha === senha) {
             localStorage.setItem("acesso", true);
             alert("usuário autenticado!")
-            window.location.href = "/tela-de-login/teamo.html"
+            window.location = "Home.html"
             return true;
         }
     }

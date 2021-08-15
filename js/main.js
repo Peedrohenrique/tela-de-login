@@ -24,7 +24,13 @@ function Login() {
     mudar.innerHTML += '<center style="font-size:17px">Tente novamente.</center>'
     return false;
 }
-
+ /* INÍCIO do Botão de mostrar a senha do input senha*/
+var input = document.getElementById('password')
+var img = document.getElementById('img')
+img.addEventListener('click', function () {
+  input.type = input.type == 'text' ? 'password' : 'text';
+});
+ /* FIM  Botão de mostrar a senha do input senha*/
 
 
 /*function logar(){
